@@ -4,10 +4,229 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>restaurant</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Mulish:wght@300;400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ExploreAndTravel</title>
 </head>
 <body>
-    <div class="container"></div>
-    
+    <header>
+        <div class="container">
+            <div class="burger">
+                <div class="logo">
+                    <a href="index.html">
+                        <img class="logo-img" src="img/logo.svg" alt="logo">
+                    </a>
+                </div>
+                <div class="menu">
+                    <a class="menu-link" href="#"><span class="menu-title">Home</span></a>
+                    <a class="menu-link" href="#"><span class="menu-text">Destinations</span></a>
+                    <a class="menu-link" href="#"><span class="menu-text">About</span></a>
+                    <a class="menu-link" href="#"><span class="menu-text">Partner</span></a>
+                    <button class="login" type="submit">Login</button>
+                    <button class="register" type="submit">Register</button>
+                </div>
+            </div>
+            <div class="header-content">
+                <h1>Explore and Travel</h1>
+                <p>Holiday finder</p>
+                <div class="hr"></div>
+                <img src="img/element2.png" alt="">
+                <form action="#">
+                    <fieldset> 
+                        <input list="location" id="location-id" name="location-name" placeholder="Location">
+                        <datalist id="location">
+                            <option value="Location">
+                    </fieldset>
+                    <fieldset> 
+                        <input list="activity" id="activity-id" name="activity-name" placeholder="Activity">
+                        <datalist id="activity">
+                            <option value="activity">
+                    </fieldset>
+                    <fieldset> 
+                        <input list="grade" id="grade-id" name="grade-name" placeholder="Grade">
+                        <datalist id="grade">
+                            <option value="Location">
+                    </fieldset>
+                    <fieldset> 
+                        <input list="date" id="date-id" name="date-name" placeholder="Date">
+                        <datalist id="date">
+                            <option value="Date">
+                    </fieldset>
+                </form>
+                <button type="submit">Explore</button>
+            </div>
+            <img class="element" src="img/element.png" alt="">
+            <img class="element2" src="img/element3.png" alt="">
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="block-two">
+                <h2>A new way to explore the world </h2>
+                <p>For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect trip, but now, they can also let Lonely Planet Experiences lead the way</p>
+                <button type="submit">Learn more</button>
+            </div>
+            <img class="element3" src="img/element3.png" alt="">
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="block-three">
+                <div class="block-three_title">
+                    <h2>Featured destinations</h2>
+                    <a href="#"><span>View all ></span></a>
+                </div>
+                <div class="block-foto">
+                    <div class="block-foto-one">
+                        <img src="img/image 4.jpg" alt="image">
+                        <div>
+                            <p class="foto-title">Raja Ampat</p>
+                            <p class="foto-subtitle">Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="block-foto-two">
+                        <img src="img/Screen Shot 2020-02-14 at 4.36 1.jpg" alt="image">
+                        <div>
+                            <p class="foto-title">Fanjingshan</p>
+                            <p class="foto-subtitle">China</p>
+                        </div>
+                    </div>
+                    <div class="block-foto-three">
+                        <img src="img/Screen Shot.jpg" alt="image">
+                        <div>
+                            <p class="foto-title">Vevey</p>
+                            <p class="foto-subtitle">Switzerland</p>
+                        </div>
+                    </div>
+                    <div class="block-foto-four">
+                        <img src="img/Screen Shot 2020.jpg" alt="image">
+                        <div>
+                            <p class="foto-title">Skadar</p>
+                            <p class="foto-subtitle">Montenegro</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="block-four">
+                <h2>Guides by Thousand Sunny</h2>
+                <p>Packed with tips and advice from our on-the-ground experts, our city guides app (iOS and Android) is the ultimate resource before and during a trip.</p>
+                <button type="submit">Download</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="block-five">
+                <img src="img/image 6.jpg" alt="">
+                <h2>Testimonials</h2>
+                <form>
+                    <div class="form-group">
+                    <div class="star-rating">
+                    <div class="star-rating__wrap">
+                    <input class="star-rating__input" id="star-5" type="radio" name="rating" value="5">
+                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-5" title="Отлично"></label>
+                    <input class="star-rating__input" id="star-4" type="radio" name="rating" value="4">
+                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-4" title="Хорошо"></label>
+                    <input class="star-rating__input" id="star-3" type="radio" name="rating" value="3">
+                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-3" title="Удовлетворительно"></label>
+                    <input class="star-rating__input" id="star-2" type="radio" name="rating" value="2">
+                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-2" title="Плохо"></label>
+                    <input class="star-rating__input" id="star-1" type="radio" name="rating" value="1">
+                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-1" title="Ужасно"></label>
+                    </div>
+                    </div>
+                    </div>
+                    </form>
+                    <p class="subtitle2">Quisque in lacus a urna fermentum euismod. Integer mi nibh, dapibus ac scelerisque eu, facilisis quis purus. Morbi blandit sit amet turpis nec</p>
+                    <p class="namePhotographer">Edward Newgate</p>
+                    <p class="position">Founder Circle</p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="block-six">
+                <div class="block-title">
+                    <h2>Trending stories</h2>
+                    <a href="#"><span>View all ></span></a>
+                </div>
+                <div class="blocks-foto">
+                    <div class="description">
+                        <img src="img/image 12.jpg" alt="image">
+                        <h3>The many benefits of taking a healing holiday</h3>
+                        <p>Helaing holidays’ are on the rise tohelp maximise your health and happines...</p>
+                        <a href="#"><span>Read more</span></a>
+                    </div>
+                    <div class="description">
+                        <img src="img/image 13.jpg" alt="image">
+                        <h3>The many benefits of taking a healing holiday</h3>
+                        <p>Helaing holidays’ are on the rise tohelp maximise your health and happines...</p>
+                        <a href="#"><span>Read more</span></a>
+                    </div>
+                    <div class="description">
+                        <img src="img/image 14.jpg" alt="image">
+                        <h3>The many benefits of taking a healing holiday</h3>
+                        <p>Helaing holidays’ are on the rise tohelp maximise your health and happines...</p>
+                        <a href="#"><span>Read more</span></a>
+                    </div>
+                    <div class="description">
+                        <img src="img/image 15.jpg" alt="image">
+                        <h3>The many benefits of taking a healing holiday</h3>
+                        <p>Helaing holidays’ are on the rise tohelp maximise your health and happines...</p>
+                        <a href="#"><span>Read more</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer_menu">
+                <div class="footer_copyright">
+                    <img src="img/logo.svg" alt="logo">
+                    <p>Plan and book your perfect trip with expert advice, travel tips destination information from us</p>
+                    <p>©2020 Thousand Sunny. All rights reserved</p>
+                </div>
+                <div class="footer_list">
+                    <h3>Destinations</h3>
+                    <a href="#"><span>Africa</span></a>
+                    <a href="#"><span>Antarctica</span></a>
+                    <a href="#"><span>Asia</span></a>
+                    <a href="#"><span>Europe</span></a>
+                    <a href="#"><span>America</span></a>
+                </div>
+                <div class="footer_list">
+                    <h3>Shop</h3>
+                    <a href="#"><span>Destination Guide</span></a>
+                    <a href="#"><span>AntarPictorial & Gifts</span></a>
+                    <a href="#"><span>Special Offers</span></a>
+                    <a href="#"><span>Delivery Times</span></a>
+                    <a href="#"><span>FAQs</span></a>
+                </div>
+                <div class="footer_list">
+                    <h3>Interests</h3>
+                    <a href="#"><span>Adventure Travel</span></a>
+                    <a href="#"><span>Art And Culture</span></a>
+                    <a href="#"><span>Wildlife And Nature</span></a>
+                    <a href="#"><span>Family Holidays</span></a>
+                    <a href="#"><span>Food And Drink</span></a>
+                </div>
+            </div>
+            <div class="footer_hr"></div>
+            <div class="footer_links">
+                <a href="https://twitter.com"><img src="img/twitter.svg" alt="twitter"></a>
+                <a href="https://facebook.com"><img src="img/facebook.svg" alt="facebook"></a>
+                <a href="https://www.instagram.com/"><img src="img/instagram.svg" alt="instagram"></a>
+                <a href="https://linkedin.com"><img src="img/linkedin.svg" alt="linkedin"></a>
+                <a href="https://youtube.com"><img src="img/youtube.svg" alt="youtube"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
